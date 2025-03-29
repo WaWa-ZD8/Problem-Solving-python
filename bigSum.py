@@ -2,7 +2,7 @@ def aVeryBigSum(ar):
     add = 0
     for i in ar:
         add += i
-    print (add)
+    return add
 
 if __name__ == '__main__':
 
