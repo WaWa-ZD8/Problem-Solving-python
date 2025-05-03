@@ -9,7 +9,7 @@ def compareTriplets(a, b):
         elif a[index_num] < b[index_num]:
             bob += 1
         index_num += 1
-    print(" ".join(map(str, [alice, bob])))
+    return(" ".join(map(str, [alice, bob])))
     
 
     
