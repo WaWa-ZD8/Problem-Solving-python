@@ -1,3 +1,4 @@
+
 def kangaroo(x1, v1, x2, v2):
     if v1 > v2 and (x2 - x1) % (v1 - v2) == 0:
         print("YES")
@@ -16,5 +17,6 @@ if __name__ == '__main__':
     v2 = int(first_multiple_input[3])
 
     kangaroo(x1, v1, x2, v2)
+
 
 

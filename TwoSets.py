@@ -1,3 +1,4 @@
+
 import math
 import os
 import random
@@ -32,3 +33,26 @@ if __name__ == '__main__':
     brr = list(map(int, input().rstrip().split()))
 
     result = getTotalX(arr, brr)
+=======
+import math
+import os
+import random
+import re
+import sys
+
+
+def getTotalX(a, b):
+    lcm = math.lcm(*a)
+    gcd = math.gcd(*b)
+    count = 0
+    
+    for i in range(lcm, gcd + 1, lcm):
+        if gcd % i == 0:
+            count += 1
+    
+    print (count)
+                
+                
+        
+
+

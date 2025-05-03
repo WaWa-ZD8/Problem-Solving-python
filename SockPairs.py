@@ -1,3 +1,4 @@
+
 def sockMerchant(n, ar):
     paires = 0
     for i in set(ar):
@@ -14,4 +15,3 @@ if __name__ == '__main__':
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = sockMerchant(n, ar)

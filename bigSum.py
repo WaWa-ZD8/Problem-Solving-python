@@ -1,3 +1,4 @@
+
 def aVeryBigSum(ar):
     add = 0
     for i in ar:
@@ -10,4 +11,3 @@ if __name__ == '__main__':
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = aVeryBigSum(ar)

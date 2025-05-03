@@ -1,3 +1,4 @@
+
 from itertools import permutations
 
 def divisibleSumPairs(n, k, ar):
@@ -17,4 +18,3 @@ if __name__ == '__main__':
 
     ar = list(map(int, input().rstrip().split()))
 
-    result = divisibleSumPairs(n, k, ar)

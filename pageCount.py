@@ -1,3 +1,4 @@
+
 def pageCount(n, p):
     if p == 0 or p == n:
         return 0
@@ -13,4 +14,3 @@ if __name__ == '__main__':
     if p%2 !=0:
         p-=1
     result = pageCount(n, p)
-    print (result)

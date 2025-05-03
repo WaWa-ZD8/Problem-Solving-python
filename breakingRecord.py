@@ -1,3 +1,4 @@
+
 def breakingRecords(scores):
     hihgest = 0
     lowest = 0
@@ -21,4 +22,3 @@ if __name__ == '__main__':
 
     scores = list(map(int, input().rstrip().split()))
 
-    result = breakingRecords(scores)

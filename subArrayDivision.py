@@ -1,3 +1,4 @@
+
 # better version of the range is (len(s) - m+1). look more into that
 
 def birthday(s, d, m):
@@ -21,4 +22,3 @@ if __name__ == '__main__':
 
     m = int(first_multiple_input[1])
 
-    result = birthday(s, d, m)

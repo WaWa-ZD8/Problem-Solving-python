@@ -1,3 +1,4 @@
+
 from datetime import datetime
 def timeConversion(s):
     t = datetime.strptime(s, '%I:%M:%S%p')
@@ -6,4 +7,3 @@ if __name__ == '__main__':
 
     s = input()
 
-    result = timeConversion(s)

@@ -1,3 +1,4 @@
+
 def diagonalDifference(arr):
     left_to_right_diagonal = 0
     right_to_left_diagonal = 0
@@ -21,4 +22,3 @@ if __name__ == '__main__':
 
     result = diagonalDifference(arr)
 
-    

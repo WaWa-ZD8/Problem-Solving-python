@@ -1,3 +1,4 @@
+
 def catAndMouse(x, y, z):
     if abs((z-x)) < abs(z-y) :
         return("Cat A")
@@ -19,4 +20,3 @@ if __name__ == '__main__':
 
         z = int(xyz[2])
 
-        result = catAndMouse(x, y, z)

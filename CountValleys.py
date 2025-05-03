@@ -1,3 +1,4 @@
+
 def countingValleys(steps, path):
     valleys = 0
     sea_level = 0
@@ -16,4 +17,3 @@ if __name__ == '__main__':
 
     path = input()
 
-    result = countingValleys(steps, path)

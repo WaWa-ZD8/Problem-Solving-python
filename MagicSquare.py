@@ -1,3 +1,4 @@
+
 def formingMagicSquare(s):
 
     magic_squares = [
@@ -30,4 +31,3 @@ if __name__ == '__main__':
     for _ in range(3):
         s.append(list(map(int, input().rstrip().split())))
 
-    result = formingMagicSquare(s)

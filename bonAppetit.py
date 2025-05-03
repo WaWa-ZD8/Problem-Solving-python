@@ -1,3 +1,4 @@
+
 def bonAppetit(bill, k, b):
     payment = 0
     if bill[k] in bill:
@@ -22,4 +23,3 @@ if __name__ == '__main__':
 
     b = int(input().strip())
 
-    bonAppetit(bill, k, b)

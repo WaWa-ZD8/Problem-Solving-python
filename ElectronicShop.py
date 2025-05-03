@@ -1,3 +1,4 @@
+
 def getMoneySpent(keyboards, drives, b):
     max_total = -1
     for keyboard in keyboards:
@@ -21,4 +22,3 @@ if __name__ == '__main__':
 
     drives = list(map(int, input().rstrip().split()))
 
-    moneySpent = getMoneySpent(keyboards, drives, b)

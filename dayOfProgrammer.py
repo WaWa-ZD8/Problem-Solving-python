@@ -1,4 +1,5 @@
 
+
 def dayOfProgrammer(year):
     
     if year < 1918:
@@ -21,4 +22,3 @@ if __name__ == '__main__':
 
     year = int(input().strip())
 
-    result = dayOfProgrammer(year)
