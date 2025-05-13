@@ -11,6 +11,7 @@ def climbingLeaderboard(ranked, player):
 
     print (result)
     
+    
        
 if __name__ == '__main__':
     
