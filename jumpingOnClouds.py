@@ -6,7 +6,7 @@ def jumpingOnClouds(c, k):
         i = (i+k) % n
         if i == 0:
             break
-    print (e)
+    print(e)
 
 if __name__ == '__main__':
 
